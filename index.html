@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía Gastronómica</title>
+    <meta name="description" content="Proyecto final de restaurantes favoritos.">
+    <title>Guía Gastronómica | Final</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body { background-color: #f8f9fa; color: #333; font-family: 'Source Sans Pro', sans-serif; margin: 0; }
-        header { background: #c0392b; padding: 30px; text-align: center; color: white; }
+        header { background: #c0392b; padding: 40px; text-align: center; color: white; border-bottom: 5px solid #a93226; }
         .container { max-width: 1200px; margin: 0 auto; padding: 40px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-bottom: 4px solid #c0392b; }
-        .card img { width: 100%; height: 200px; object-fit: cover; }
-        .card-content { padding: 20px; }
-        /* Botón agregado */
-        .btn { display: inline-block; background: #c0392b; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; margin-top: 10px; font-weight: bold; }
-        footer { background: #333; color: white; text-align: center; padding: 20px; }
+        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-bottom: 4px solid #c0392b; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
+        .card img { width: 100%; height: 220px; object-fit: cover; }
+        .card-content { padding: 25px; text-align: center; }
+        .btn { display: inline-block; background: #c0392b; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-top: 15px; font-weight: bold; }
+        footer { background: #1a1a1a; color: #888; text-align: center; padding: 30px; margin-top: 50px; }
     </style>
 </head>
 <body>
-    <header><h1>MIS RESTAURANTES FAVORITOS</h1></header>
+    <header><h1>RESTAURANTES RECOMENDADOS</h1></header>
     <div class="container">
         <div class="grid">
-            <div class="card"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600"><div class="card-content"><h3>La Nostra Pizza</h3><a href="#" class="btn">Ver Carta</a></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600"><div class="card-content"><h3>The Burger Lab</h3><a href="#" class="btn">Ver Carta</a></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600"><div class="card-content"><h3>Nikkei Sushi Bar</h3><a href="#" class="btn">Ver Carta</a></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=600"><div class="card-content"><h3>El Rey del Taco</h3><a href="#" class="btn">Ver Carta</a></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600"><div class="card-content"><h3>Carbonera Grill</h3><a href="#" class="btn">Ver Carta</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600"><div class="card-content"><h3>La Nostra Pizza</h3><a href="#" class="btn">Reservar</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600"><div class="card-content"><h3>The Burger Lab</h3><a href="#" class="btn">Reservar</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600"><div class="card-content"><h3>Nikkei Sushi Bar</h3><a href="#" class="btn">Reservar</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=600"><div class="card-content"><h3>El Rey del Taco</h3><a href="#" class="btn">Reservar</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600"><div class="card-content"><h3>Carbonera Grill</h3><a href="#" class="btn">Reservar</a></div></div>
         </div>
     </div>
-    <footer>&copy; 2026 Guía Gastronómica</footer>
+    <footer>&copy; 2026 Emanuel - Proyecto Finalizado</footer>
 </body>
 </html>
