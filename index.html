@@ -8,27 +8,23 @@
     <style>
         body { background-color: #f8f9fa; color: #333; font-family: 'Source Sans Pro', sans-serif; margin: 0; }
         header { background: #c0392b; padding: 30px; text-align: center; color: white; }
-        h1 { font-family: 'Playfair Display', serif; margin: 0; }
         .container { max-width: 1200px; margin: 0 auto; padding: 40px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        /* Mejora en hover */
-        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-bottom: 4px solid #c0392b; transition: transform 0.3s ease; }
-        .card:hover { transform: scale(1.05); }
+        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-bottom: 4px solid #c0392b; }
         .card img { width: 100%; height: 200px; object-fit: cover; }
         .card-content { padding: 20px; }
-        .card-content h3 { margin: 0 0 10px; color: #c0392b; font-family: 'Playfair Display', serif; }
-        footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        footer { background: #333; color: white; text-align: center; padding: 20px; }
     </style>
 </head>
 <body>
     <header><h1>MIS RESTAURANTES FAVORITOS</h1></header>
     <div class="container">
         <div class="grid">
-            <div class="card"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600"><h3>La Nostra Pizza</h3></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600"><h3>The Burger Lab</h3></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600"><h3>Nikkei Sushi Bar</h3></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=600"><h3>El Rey del Taco</h3></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600"><h3>Carbonera Grill</h3></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600" alt="Pizza artesanal italiana"><h3>La Nostra Pizza</h3></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600" alt="Hamburguesa gourmet con papas"><h3>The Burger Lab</h3></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600" alt="Bandeja de sushi variado"><h3>Nikkei Sushi Bar</h3></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=600" alt="Tacos mexicanos de pastor"><h3>El Rey del Taco</h3></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600" alt="Corte de carne a la parrilla"><h3>Carbonera Grill</h3></div>
         </div>
     </div>
     <footer>&copy; 2026 Guía Gastronómica</footer>
